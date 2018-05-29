@@ -1,0 +1,8 @@
+ipython
+jupyter
+torchtext
+nltk
+sklearn
+scipy
+matplotlib
+tqdm
