@@ -257,7 +257,7 @@ None of these changes improved on the initial single-layer,
 Section 3.4. The perplexities we achieved with each of our Section 3
 models is described in Table 1.
 
-*Model* | *Epoch 1* |
+*Model* | *Accuracy* |
 :---: | :---: |
 Linearly Interpolated Trigram | 78.03
 Neural Language Model (5-gram) | 162.2
