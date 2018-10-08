@@ -305,3 +305,4 @@ J. Pennington, R. Socher, C. Manning. “GloVe: Global Vectors for Word Represen
 
 W. Zaremba, I. Sutskever, O. Vinyals. 2015. “Recurrent Neural Network
 Regularization.” arXiv preprint arXiv:1409.2329, February 19, 2015.
+
