@@ -305,4 +305,4 @@ representations in vector space.” arXiv preprint arXiv:1301.3781. 2013.
 J. Pennington, R. Socher, C. Manning. “GloVe: Global Vectors for Word Representation.” Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 1532-1543. 2014.
 
 W. Zaremba, I. Sutskever, O. Vinyals. 2015. “Recurrent Neural Network
-Regularization.” arXiv preprint arXiv:1409.2329, February 19, 2015.
+Regularization.” arXiv preprint arXiv:1409.2329. 2015.
