@@ -1,7 +1,7 @@
 Introduction
 ============
 
-In this problem set we train three language models on the canonical Penn
+In this repository we train three language models on the canonical Penn
 Treebank (PTB) corpus. This corpus is split into training and validation
 sets of approximately 929K and 73K tokens, respectively. We implement
 (1) a traditional trigram model with linear interpolation, (2) a neural
@@ -262,7 +262,7 @@ models is described in Table 1.
 Linearly Interpolated Trigram | 78.03
 Neural Language Model (5-gram) | 162.2
 1-layer LSTM | 101.5
-3-layer LSTM + connections | 92.9
+3-layer LSTM + connections | **92.9**
 
 Though the multi-layer LSTM with connections beat the simple LSTM
 baseline, we were unable to replicate the 78.4 validation perplexity
@@ -270,7 +270,8 @@ performance described by (Zaremba et al., 2015) using the same corpus and
 similar architectures. Namely, when using the configurations described
 in the paper (the 2-layer, 650- and 1500-unit architectures), our models
 overfit within 5-6 epochs, even when applying dropout in a way that
-matched the approach described in the paper. In contrast, (Zaremba et al., 2015) mention training for as many as 55 epochs.)
+matched the approach described in the paper. In contrast, (Zaremba et al., 2015)
+mention training for as many as 55 epochs.)
 
 Conclusion
 ==========
@@ -305,4 +306,3 @@ J. Pennington, R. Socher, C. Manning. “GloVe: Global Vectors for Word Represen
 
 W. Zaremba, I. Sutskever, O. Vinyals. 2015. “Recurrent Neural Network
 Regularization.” arXiv preprint arXiv:1409.2329, February 19, 2015.
-
