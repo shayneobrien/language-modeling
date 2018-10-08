@@ -222,9 +222,9 @@ None of these changes improved on the initial single-layer,
 Section 3.4. The perplexities we achieved with each of our Section 3
 models is described in Table 1.
 
-*Model* | *Accuracy* |
+*Model* | *Perplexity* |
 :---: | :---: |
-Linearly Interpolated Trigram | 78.03
+Linearly Interpolated Trigram | 178.03
 Neural Language Model (5-gram) | 162.2
 1-layer LSTM | 101.5
 3-layer LSTM + connections | **92.9**
